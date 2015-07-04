@@ -36,6 +36,6 @@ p.once('中午吃饭',eat);
 p.once('中午吃饭',drink);
 //p.removeListener('中午吃饭',eat);
 //p.removeAllListeners('中午吃饭');
-//p.emit('中午吃饭');
+p.emit('中午吃饭');
 console.log(p.listeners('中午吃饭'));
 console.log(EventEmitter.listenerCount(p,'中午吃饭'));
